@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.iconpokemon{
+height: 200px; 
+width: 200px;   
+
+}
+
+
+.pokemon{
+    display: flex;
+    flex-direction: column;
+    width:35%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border: 10px solid yellow;
+    background: rgb(250, 239, 91);
+}
+
+.pokemon h3{
+    color: black ;
+}
+.capa{
+    width: 300px;
+    height: 150px;
+    margin-top: 50px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 7px;
+    margin: 8px;
+    padding: 10px ;
+}
+.title{
+    font-size: 25px;
+    margin-bottom:  25px;
+    margin-top: 10px;
+    color: black;
+}
+
+.subtitulo{
+    margin: 5px;
+}
+
+.areBtn{
+    margin-top: 100px;
+    display: flex ;
+
+}
+
+.botao{
+    width: 150px;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer ;
+
+}
+
+.botao:hover{
+  
+     background-color: rgb(248, 232, 4);
+     color: blue;
+    transition: all 0.25s ;
+    
+  
+}
+.txtbusca{
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+
+
+}
